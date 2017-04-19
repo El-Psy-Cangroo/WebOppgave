@@ -1,0 +1,34 @@
+header {
+	background: #fff;
+	position: relative;
+
+	.header-inner {
+		margin-top: 20px; 
+		margin-bottom: 30px;
+		margin-left: $layout-margin;
+		margin-right: $layout-margin;
+
+		position: relative;
+		//border: 1px solid #000;
+
+		a {
+
+			img {
+				height: 55px;
+				display: inline-block;
+			}
+		}
+		nav {
+			display: inline-block;
+			float: right;
+			position: relative;
+			top: 21px;
+			
+			
+			img {
+				height: 25px;
+				margin-left: 15px;
+			}
+		}
+	}
+}
