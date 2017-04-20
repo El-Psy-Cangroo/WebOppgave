@@ -50,7 +50,16 @@
 // End of Font Imports
 
 
-
+#button-readmore {
+	font-family: 'FuturBol';
+	text-decoration: none;
+	color: #10497D;
+	font-size: 15px;
+	letter-spacing: 2px;
+	background: #eee;
+	padding: 10px;
+	//border: 1px solid #024;
+}
 
 //banner
 #banner-title {
@@ -59,13 +68,6 @@
 	color:#eee;
 }
 
-#button-readmore {
-	font-family: 'FuturBol';
-	text-decoration: none;
-	color: #10497D;
-	font-size: 15px;
-	letter-spacing: 2px;
-}
 
 //Menu-Icons
 #menu-icons-title {
@@ -79,7 +81,7 @@
 //Nyhet
 #news-item-title {
 	font-family: 'FuturBol';
-	color: #ddd;
+	color: #fff;
 	font-size: 30px;
 }
 #news-item-subtitle {

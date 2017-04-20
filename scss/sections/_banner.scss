@@ -2,4 +2,57 @@ section.banner {
 	background-image: url('../bilder/AI_Image.jpg');
 	background-size: auto 100%;
 	height: 600px;
+
+	.banner-inner {
+		margin-left: $layout-margin;
+		margin-right: $layout-margin;
+		position: relative;
+
+		.banner-inner-content {
+			//border: 1px solid #000;
+			display: block;
+			position: relative;
+			top: 350px;
+
+			h2 {
+				margin-bottom: 40px;
+			}
+
+			a {
+				background: #eee;
+				padding: 10px;
+			}
+
+		}
+
+
+		.banner-inner-dots {
+			float: right;
+			position: relative;
+			top: 460px;
+			
+			.banner-inner-dots-active {
+				display: inline-block;
+				margin-left: 15px;
+				width: $dots-size;
+				height: $dots-size;
+				-moz-border-radius: 50px;
+				-webkit-border-radius: 50px;
+				border-radius: 50px;
+				border: $dots-border-size solid #eee;
+			}
+
+			.banner-inner-dots-passive {
+				display: inline-block;
+				margin-left: 15px;
+				width: $dots-size;
+				height: $dots-size;
+				background: #eee;
+				-moz-border-radius: 50px;
+				-webkit-border-radius: 50px;
+				border-radius: 50px;
+				border: $dots-border-size solid #eee;
+			}
+		}
+	}
 }
