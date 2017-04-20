@@ -4,7 +4,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<title>Torarinn-Oppg</title>
-	<link rel="stylesheet" type="text/css" href="css/app.css?bs">
+	<link rel="stylesheet" type="text/css" href="css/app.css?qas">
 </head>
 <body>
 <header>
@@ -22,11 +22,13 @@
 <section class="banner">
 	<div class="banner-inner">
 		<div class="banner-inner-content">
-			<h2>Eventuell tittel på bilde</h2>
-			<a href="#">Les mer</a>
+			<h2 id="banner-title">Eventuell tittel på bilde</h2>
+			<a href="#" id="button-readmore">LES MER</a>
 		</div>
-		<div calss="banner-inner-dots">
-			Dots
+		<div class="banner-inner-dots">
+			<div class="banner-inner-dots-active"></div>
+			<div class="banner-inner-dots-passive"></div>
+			<div class="banner-inner-dots-passive"></div>
 		</div>
 	</div>
 </section>
@@ -35,23 +37,23 @@
 	<div class="menu-icons-inner">
 		<div class="menu-icons-inner-single">
 			<h3 id="menu-icons-title">fjellski</h3>
-			<img src="#" alt="" id="menu-icons-svg">
+			<img src="svg/ikon-fjellski.svg" alt="" id="menu-icons-svg">
 		</div>
 		<div class="menu-icons-inner-single">
 			<h3 id="menu-icons-title">toppturski</h3>
-			<img src="#" alt="" id="menu-icons-svg">
+			<img src="svg/ikon-toppturski.svg" alt="" id="menu-icons-svg">
 		</div>
 		<div class="menu-icons-inner-single">
 			<h3 id="menu-icons-title">turski</h3>
-			<img src="#" alt="" id="menu-icons-svg">
+			<img src="svg/ikon-turski.svg" alt="" id="menu-icons-svg">
 		</div>
 		<div class="menu-icons-inner-single">
 			<h3 id="menu-icons-title">skistaver</h3>
-			<img src="#" alt="" id="menu-icons-svg">
+			<img src="svg/ikon-skistaver.svg" alt="" id="menu-icons-svg">
 		</div>
 		<div class="menu-icons-inner-single">
 			<h3 id="menu-icons-title">skifeller</h3>
-			<img src="#" alt="" id="menu-icons-svg">
+			<img src="svg/ikon-skifeller.svg" alt="" id="menu-icons-svg">
 		</div>
 	</div>
 
@@ -62,22 +64,22 @@
 
 		<div class="news-item-content">
 			<div class="news-item-content-icons">
-				<img src="#" alt="nyhet">
-				<img src="#" alt="Uten stålkant">
+				<img src="svg/ikon-nyhet-blå.svg" alt="nyhet">
+				<img src="svg/ikon-uten-stålkant.svg" alt="Uten stålkant">
 			</div>
 			<div class="news-item-content-text">
 				<h2 id="news-item-title">Breidablikk jaktski m/fellelås</h2>
 				<h2 id="news-item-subtitle">Allsidig jaktski uten stålkant</h2>
 			</div>
 			<div class="news-item-checklist">
-				<p id="news-item-checklist-item"><img src="#" alt="fellelås">fellelås</p>
-				<p id="news-item-checklist-item"><img src="#" alt="fellelås">smørbar / sintret såle</p>
+				<p id="news-item-checklist-item"><img src="https://cdn1.iconfinder.com/data/icons/material-core/20/check-circle-outline-512.png" alt="fellelås">fellelås</p>
+				<p id="news-item-checklist-item"><img src="https://cdn1.iconfinder.com/data/icons/material-core/20/check-circle-outline-512.png" alt="fellelås">smørbar / sintret såle</p>
 			</div>
 			<a href="#" id="button-readmore">les mer</a>
 		</div>
 
 		<div class="news-image">
-			<img src="#" alt="Breidablikk Jakt">
+			<img src="bilder/AI_Image5.jpg" alt="Breidablikk Jakt">
 		</div>
 	</div>
 
@@ -85,26 +87,26 @@
 <!--- News item End -->
 <section class="products">
 	<div class="products-inner">
-
+		<h1 id="products-title">PRODUKTER</h1>
 		<div class="product-inner-single">
-			<div id="product-newsicon"><img src="#" alt="Nyhet" id="product-icon"></div>
-			<img src="#" alt="" id="product-inner-image">
+			<div id="product-newsicon"><img src="svg/ikon-nyhet-blå.svg" alt="Nyhet" id="product-icon"></div>
+			<img src="http://buzzboombox.com/wp-content/plugins/boombox-theme-extensions/boombox-reactions/svg/cute.svg" alt="" id="product-inner-image">
 			<p id="product-inner-title">Sondre AW16</p>
 		</div>
 
 		<div class="product-inner-single">
-			<img src="#" alt="" id="product-inner-image">
+			<img src="http://buzzboombox.com/wp-content/plugins/boombox-theme-extensions/boombox-reactions/svg/cute.svg" alt="" id="product-inner-image">
 			<p id="product-inner-title">Mountain Race 48</p>
 		</div>
 
 		<div class="product-inner-single">
-			<div id="product-newsicon"><img src="#" alt="Nyhet" id="product-icon"></div>
-			<img src="#" alt="" id="product-inner-image">
+			<div id="product-newsicon"><img src="svg/ikon-nyhet-blå.svg" alt="Nyhet" id="product-icon"></div>
+			<img src="http://buzzboombox.com/wp-content/plugins/boombox-theme-extensions/boombox-reactions/svg/cute.svg" alt="" id="product-inner-image">
 			<p id="product-inner-title">Breidablikk 2016</p>
 		</div>
 
 		<div class="product-inner-single">
-			<img src="#" alt="" id="product-inner-image">
+			<img src="http://buzzboombox.com/wp-content/plugins/boombox-theme-extensions/boombox-reactions/svg/cute.svg" alt="" id="product-inner-image">
 			<p id="product-inner-title">Eggi 108</p>
 		</div>
 		
@@ -116,7 +118,7 @@
 		<div class="events-inner-content">
 			<h3 id="events-subtitle">ULTRA-MARATON PÅ FJELLSKI</h3>
 			<h2 id="events-title">Hardinglaup 2016</h2>
-			<p id="event-context">
+			<p id="events-context">
 				Er du Robust nok til å takle det høyfjellet på vinterstid? har du erfaring fra lange turer på fjellski? Da er kanskje dette noe for deg.
 			</p>
 			<a href="#" id="button-readmore">LES MER</a>
@@ -180,7 +182,7 @@
 			</div>
 		</div>
 		<hr id="footer-divider">
-		<div id="footer-info">
+		<div class="footer-info">
 			<div id="footer-info-single">
 				<h3 id="footer-info-title">ADRESSE</h3>
 				<p id="footer-info-text">ACTIVE BRANDS AS</p>

@@ -47,10 +47,123 @@
     font-family: 'FuturObl';
     src: url('../font/FuturObl.woff');
 }
+// End of Font Imports
+
+
 
 
 //banner
 #banner-title {
-	font-family: 'FuturLigObl';
-	font-size: 50px;
+	font-family: 'FuturBol';
+	font-size: 30px;
+	color:#eee;
 }
+
+#button-readmore {
+	font-family: 'FuturBol';
+	text-decoration: none;
+	color: #10497D;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+//Menu-Icons
+#menu-icons-title {
+	font-family: 'FuturBol';
+	color: #ddd;
+	font-size: 25px;
+	margin: 5px;
+}
+
+
+//Nyhet
+#news-item-title {
+	font-family: 'FuturBol';
+	color: #ddd;
+	font-size: 30px;
+}
+#news-item-subtitle {
+	font-family: 'FuturBol';
+	color: #ccc;
+	font-size: 30px;
+}
+#news-item-checklist-item {
+	font-family: 'FuturBol';
+	color: #ddd;
+	font-size: 15px;
+}
+
+//Products
+#products-title {
+	font-family: 'FuturBol';
+	font-size: 30px;
+	color: #10497D;
+}
+#product-inner-title {
+	font-family: 'FuturBol';
+	font-size: 20px;
+	color: #ddd;
+}
+
+//events
+#events-title {
+	font-family: 'FuturBol';
+	font-size: 30px;
+	color: #ddd;
+}
+#events-subtitle {
+	font-family: 'FuturBol';
+	font-size: 20px;
+	color: #ddd;
+}
+#events-context {
+	font-family: 'Futur';
+	font-size: 15px;
+	color: #ccc;
+}
+
+
+//footer
+.footer-ambassador {
+
+	h1 {
+		font-family: 'FuturBol';
+		font-size: 30px;
+		color: #ddd;
+	}
+	p {
+		font-family: 'FuturBol';
+		font-size: 20px;
+		color: #ddd;
+	}
+}
+
+.footer-sitemap {
+
+	#sitemap-link {
+		font-family: 'FuturBol';
+		font-size: 20px;
+		color: #ddd;
+	}
+	#sitemap-sublink {
+		font-family: 'FuturBol';
+		font-size: 15px;
+		color: #ddd;
+	}
+}
+.footer-info {
+
+	h3 {
+		font-family: 'FuturBol';
+		font-size: 20px;
+		color: #ddd;
+	}
+	p {
+		font-family: 'FuturLig';
+		font-size: 15px;
+		color: #ddd;
+	}
+}
+
+
+
