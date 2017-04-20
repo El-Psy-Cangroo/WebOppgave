@@ -1,10 +1,10 @@
 section.banner {
 	background-image: url('../bilder/AI_Image.jpg');
 	background-size: auto 100%;
-	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-	height: 600px;
+	//background-position: center;
+	//background-attachment: fixed;
+    //background-repeat: no-repeat;
+	height: 700px;
 
 	.banner-inner {
 		margin-left: $layout-margin;
@@ -15,7 +15,7 @@ section.banner {
 			//border: 1px solid #000;
 			display: block;
 			position: relative;
-			top: 350px;
+			top: 450px;
 
 			h2 {
 				margin-bottom: 40px;
@@ -32,7 +32,7 @@ section.banner {
 		.banner-inner-dots {
 			float: right;
 			position: relative;
-			top: 460px;
+			top: 530px;
 			
 			.banner-inner-dots-active {
 				display: inline-block;

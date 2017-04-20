@@ -53,21 +53,21 @@
 #button-readmore {
 	font-family: 'FuturBol';
 	text-decoration: none;
-	color: #10497D;
-	font-size: 15px;
+	color: $blue-light;
+	font-size: 14px;
 	letter-spacing: 2px;
-	background: #eee;
-	padding: 10px;
+	background: #fff;
+	padding: 11px;
 	//border: 1px solid #024;
 }
 #button-readmore-black {
 	font-family: 'FuturBol';
 	text-decoration: none;
-	color: #333;
+	color: #000;
 	font-size: 15px;
 	letter-spacing: 2px;
-	background: #eee;
-	padding: 10px;
+	background: #fff;
+	padding: 11px;
 	//border: 1px solid #024;
 }
 
@@ -75,15 +75,15 @@
 #banner-title {
 	font-family: 'FuturBol';
 	font-size: 30px;
-	color:#eee;
+	color:#fff;
 }
 
 
 //Menu-Icons
 #menu-icons-title {
 	font-family: 'FuturBol';
-	color: #ddd;
-	font-size: 25px;
+	color: #fff;
+	font-size: 24px;
 	margin: 5px;
 }
 
@@ -96,37 +96,39 @@
 }
 #news-item-subtitle {
 	font-family: 'FuturBol';
-	color: #ccc;
+	color: #bce;
 	font-size: 30px;
 }
 #news-item-checklist-item {
 	font-family: 'FuturBol';
-	color: #ddd;
-	font-size: 15px;
+	color: #fff;
+	font-size: 20px;
 }
 
 //Products
 #products-title {
 	font-family: 'FuturBol';
-	font-size: 30px;
-	color: #10497D;
+	letter-spacing: 5px;
+	font-size: 32px;
+	color: $blue-light;
+	line-height: 24px;
 }
 #product-inner-title {
 	font-family: 'FuturBol';
 	font-size: 20px;
-	color: #ddd;
+	color: #fff;
 }
 
 //events
 #events-title {
 	font-family: 'FuturBol';
 	font-size: 33px;
-	color: #eee;
+	color: #fff;
 }
 #events-subtitle {
 	font-family: 'FuturBol';
 	font-size: 20px;
-	color: #eee;
+	color: #fff;
 }
 #events-context {
 	font-family: 'FuturBoo';

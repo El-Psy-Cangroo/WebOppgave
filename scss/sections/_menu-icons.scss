@@ -1,5 +1,5 @@
 .menu-icons {
-	background: #024;
+	background: #07253f;
 	text-align: center;
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -27,13 +27,14 @@
 			}
 		}
 		a:last-child > div{
+			text-align: center;
 			overflow: hidden;
 			margin-left: 50px;
 			margin-right: 50px;
 
 			img {
 				position: relative;
-				right:36px;
+				right:30px;
 				height: 100px;
 			}
 
