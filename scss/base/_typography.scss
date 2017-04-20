@@ -140,13 +140,14 @@
 
 	h1 {
 		font-family: 'FuturBol';
-		font-size: 30px;
-		color: #ddd;
+		font-size: 33px;
+		letter-spacing: 3px;
+		color: #fff;
 	}
 	p {
 		font-family: 'FuturBol';
 		font-size: 20px;
-		color: #ddd;
+		color: #fff;
 	}
 }
 
@@ -155,11 +156,11 @@
 	#sitemap-link {
 		font-family: 'FuturBol';
 		font-size: 20px;
-		color: #ddd;
+		color: #fff;
 	}
 	#sitemap-sublink {
-		font-family: 'FuturBol';
-		font-size: 15px;
+		font-family: 'FuturBoo';
+		font-size: 20px;
 		color: #ddd;
 	}
 }
@@ -167,13 +168,21 @@
 
 	h3 {
 		font-family: 'FuturBol';
+		letter-spacing: 3px;
 		font-size: 20px;
-		color: #ddd;
+		color: #fff;
 	}
 	p {
+		font-family: 'FuturBoo';
+		font-size: 14px;
+		letter-spacing: 3px;
+		color: #fff;
+	}
+	a {
 		font-family: 'FuturLig';
 		font-size: 15px;
-		color: #ddd;
+		letter-spacing: 3px;
+		color: #fff;
 	}
 }
 
