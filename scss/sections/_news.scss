@@ -1,18 +1,20 @@
 .news-item-inner {
 	height: 525px;
 	border: 0px solid #024;
-	width: 100%;
+
 	background-color: #10497D;
+	padding-left: $layout-margin;
+
 }
 
 .news-item-content {
 	display: inline-block;
-	width: 40%;
+	width: 35%;
 	padding-top: 40px;
 	border: 0px solid #eee;
 
 	div, a{
-		margin-left: $layout-margin;
+		//margin-left: $layout-margin;
 	}
 	div > h2:first-child {
 		padding-top: 40px;
@@ -63,7 +65,7 @@
 }
 .news-image {
 	display: inline-block;
-	width: 60%;
+	width: 65%;
 	height: 100%;
 	float: right;
 	overflow: hidden;
@@ -75,6 +77,139 @@
 		float: right;
 		position: relative;
 		top: 145px;
+		padding-right: 140px;
+	}
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 769px) {
+	section.news-item {
+		div {
+			height: 400px;
+
+			.news-item-content {
+				padding-top: 25px;
+
+				div > h2 {
+					padding-top: 2px;
+				}
+				.news-item-content-text {
+					position: relative;
+					top: -300px;
+				}
+				.news-item-checklist {
+					position: relative;
+					top: -580px;
+				}
+				.button-readmore {
+					position: relative;
+					top: -580px;
+					left: 0px;
+				}
+			}
+		}
+	}
+	#news-icon-svg {
+		height: 50px;
+		border: 1px solid #fff;
+		margin-right: 10px;
+	}
+
+	#news-item-title {
+		font-family: 'FuturBol';
+		color: #fff;
+		font-size: 20px;
+	}
+	#news-item-subtitle {
+		font-family: 'FuturBol';
+		color: #bce;
+		font-size: 20px;
+	}
+	#news-item-checklist-item {
+		font-family: 'FuturBol';
+		color: #fff;
+		font-size: 14px;
+
+		img {
+			height: 16px;
+		}
+	}
+	#news-image-media {
+		width: 1000px;
+		position: relative;
+		top: 100px;
 		padding-right: 100px;
 	}
+}
+
+@media screen and (max-width: 768px) {
+	//News-item
+	section.news-item {
+		div {
+			height: 400px;
+
+			.news-item-content {
+				padding-top: 10px;
+				width: 60%;
+
+				div > h2 {
+					padding-top: 2px;
+				}
+				.news-item-content-text {
+					position: relative;
+					top: -300px;
+				}
+				.news-item-checklist {
+					position: relative;
+					top: -570px;
+				}
+				.button-readmore {
+					position: relative;
+					top: -580px;
+					//left: 230px;
+				}
+			}
+		}
+		.news-image {
+			width: 40%;
+			background-size: auto 100%;
+		}
+	}
+	#news-icon-svg {
+		height: 50px;
+		border: 1px solid #fff;
+		margin-right: 1px;
+	}
+
+	#news-item-title {
+		font-family: 'FuturBol';
+		color: #fff;
+		font-size: 18px;
+	}
+	#news-item-subtitle {
+		font-family: 'FuturBol';
+		color: #bce;
+		font-size: 18px;
+	}
+	#news-item-checklist-item {
+		font-family: 'FuturBol';
+		color: #fff;
+		font-size: 13px;
+
+		img {
+			height: 8px;
+		}
+	}
+	#news-image-media {
+		width: 800px;
+		position: relative;
+		top: 400px;
+		left: 330px;
+		transform: rotate(-90deg);
+		padding-right: $layout-margin;
+	}
+	#button-news {
+		font-size: 10px;
+	}
+
 }

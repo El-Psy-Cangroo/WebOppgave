@@ -50,7 +50,7 @@
 // End of Font Imports
 
 
-#button-readmore {
+.button-readmore {
 	font-family: 'FuturBol';
 	text-decoration: none;
 	color: $blue-light;
@@ -60,7 +60,7 @@
 	padding: 11px;
 	//border: 1px solid #024;
 }
-#button-readmore-black {
+.button-readmore-black {
 	font-family: 'FuturBol';
 	text-decoration: none;
 	color: #000;
@@ -92,12 +92,12 @@
 #news-item-title {
 	font-family: 'FuturBol';
 	color: #fff;
-	font-size: 30px;
+	font-size: 28px;
 }
 #news-item-subtitle {
 	font-family: 'FuturBol';
 	color: #bce;
-	font-size: 30px;
+	font-size: 28px;
 }
 #news-item-checklist-item {
 	font-family: 'FuturBol';
@@ -138,6 +138,14 @@
 
 
 //footer
+.footer-inner {
+	h1 {
+		font-family: 'FuturBol';
+		font-size: 33px;
+		letter-spacing: 3px;
+		color: #fff;
+	}
+}
 .footer-ambassador {
 
 	h1 {
@@ -148,19 +156,19 @@
 	}
 	p {
 		font-family: 'FuturBol';
-		font-size: 20px;
+		font-size: 1.4vw;
 		color: #fff;
 	}
 }
 
 .footer-sitemap {
 
-	#sitemap-link {
+	a.sitemap-link {
 		font-family: 'FuturBol';
 		font-size: 20px;
 		color: #fff;
 	}
-	#sitemap-sublink {
+	a.sitemap-sublink {
 		font-family: 'FuturBoo';
 		font-size: 20px;
 		color: #ddd;

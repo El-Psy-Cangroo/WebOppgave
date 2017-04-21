@@ -5,20 +5,22 @@
 	padding-bottom: 30px;
 
 	.menu-icons-inner {
-
 		a > .menu-icons-inner-single {
 			display: inline-block;
 			width: 160px;
 			height: 170px;
-			margin-left: 50px;
-			margin-right: 50px;
-			text-align: center;
-			border: 0px solid #000;
+			//margin-left: 3%;
+			margin-right: 6%;
+			border: 0px solid #f00;
 
-			h3 {
+			#menu-icons-title {
 				padding-bottom: 10px;
 			}
 		}
+
+		//a:first-child > .menu-icons-inner-single {
+		//	margin-right: 6%;
+		//}
 		a > div {
 			overflow: hidden;
 
@@ -29,8 +31,8 @@
 		a:last-child > div{
 			text-align: center;
 			overflow: hidden;
-			margin-left: 50px;
-			margin-right: 50px;
+			margin-left: 0%;
+			margin-right: 0%;
 
 			img {
 				position: relative;
@@ -41,4 +43,84 @@
 		}
 
 	}
+}
+
+
+
+
+
+
+/* --------- Media Queries ------------ */
+
+@media screen and (max-width: 1200px) and (min-width: 769px) {
+	section.menu-icons {
+		#menu-icons-title {
+			font-size: 20px;
+			padding-bottom: 10px;
+		}
+		#menu-icons-svg {
+			height: 90px;
+
+		}
+		#menu-icons-svg:last-child {
+			height: 90px;
+			right: 40px;
+		}
+		#menu-single {
+			width: 120px;
+			margin-right: 4%;
+		}
+		#menu-single:last-child {
+			width: 120px;
+		}
+	}
+}
+
+@media screen and (max-width: 768px) and (min-width: 471px) {
+	section.menu-icons {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	#menu-icons-title {
+		font-size: 10px;
+		padding-bottom: 5px;
+	}
+	#menu-icons-svg {
+		height: 50px;
+
+	}
+	#menu-icons-svg:last-child {
+		height: 50px;
+		right: 20px;
+	}
+	#menu-single {
+		width: 70px;
+		height: 90px;
+		margin-right: 4%;
+	}
+
+}
+@media screen and (max-width: 470px) {
+	section.menu-icons {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	#menu-icons-title {
+		font-size: 8px;
+		padding-bottom: 5px;
+	}
+	#menu-icons-svg {
+		height: 40px;
+
+	}
+	#menu-icons-svg:last-child {
+		height: 40px;
+		right: 20px;
+	}
+	#menu-single {
+		width: 50px;
+		height: 90px;
+		margin-right: 2%;
+	}
+	
 }

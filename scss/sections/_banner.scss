@@ -12,7 +12,7 @@ section.banner {
 		position: relative;
 
 		.banner-inner-content {
-			//border: 1px solid #000;
+			border: 0px solid #000;
 			display: block;
 			position: relative;
 			top: 450px;
@@ -58,4 +58,61 @@ section.banner {
 			}
 		}
 	}
+}
+
+
+
+
+
+
+
+
+/* ------- Media Queries ----------*/
+@media screen and (max-width: 1200px) and (min-width: 769px) {
+	section.banner {
+		height: 650px;
+		background-position: center;
+	}
+	#media-banner-content {
+		position: relative;
+		top: 430px;
+	}
+	#banner-dots {
+		position: relative;
+		top: 490px;
+
+		div {
+			height: 10px;
+			width: 10px;
+		}
+	}
+
+}
+@media screen and (max-width: 768px) {
+	#banner-title {
+		font-size: 20px;
+	}
+
+	section.banner {
+		height: 550px;
+		background-position: center;
+	}
+
+	#media-banner-content {
+		position: relative;
+		top: 250px;
+	}
+	#banner-dots {
+		position: relative;
+		top: 420px;
+
+		div {
+			height: 5px;
+			width: 5px;
+		}
+	}
+	#button-readmore {
+		font-size: 10px;
+	}
+
 }

@@ -4,28 +4,28 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<title>Torarinn-Oppg</title>
-	<link rel="stylesheet" type="text/css" href="css/app.css?m">
+	<link rel="stylesheet" type="text/css" href="css/app.css?mqweasasda">
 </head>
 <body>
 <header>
 	<div class="header-inner">
-		<a href="#" id="logo"><img src="svg/logo.svg" alt="Åsnes"></a>
+		<a href="#" id="logo"><img src="svg/logo.svg" alt="Åsnes" id="logo-icon"></a>
 
 		<nav>
-			<a href="#" id="english-icon"><img src="svg/eng.svg" alt=""></a>
-			<a href="#" id="search-icon"><img src="svg/søk.svg" alt=""></a>
-			<a href="#" id="menu-icon"><img src="svg/meny.svg" alt=""></a>
+			<a href="#" id="english-icon"><img src="svg/eng.svg" alt="" id="nav-icons"></a>
+			<a href="#" id="search-icon"><img src="svg/søk.svg" alt="" id="nav-icons"></a>
+			<a href="#" id="menu-icon"><img src="svg/meny.svg" alt="" id="nav-icons"></a>
 		</nav>
 	</div>
 </header>
 <!--- Header End -->
 <section class="banner">
 	<div class="banner-inner">
-		<div class="banner-inner-content">
+		<div class="banner-inner-content" id="media-banner-content">
 			<h2 id="banner-title">Eventuell tittel på bilde</h2>
-			<a href="#" id="button-readmore">LES MER</a>
+			<a href="#" class="button-readmore">LES MER</a>
 		</div>
-		<div class="banner-inner-dots">
+		<div class="banner-inner-dots" id="banner-dots">
 			<div class="banner-inner-dots-active"></div>
 			<div class="banner-inner-dots-passive"></div>
 			<div class="banner-inner-dots-passive"></div>
@@ -35,25 +35,25 @@
 <!--- Banner End -->
 <section class="menu-icons">
 	<div class="menu-icons-inner">
-		<a href="#"><div class="menu-icons-inner-single">
+		<a href="#"><div class="menu-icons-inner-single" id="menu-single">
 			<h3 id="menu-icons-title">fjellski</h3>
-			<img src="svg/ikon-fjellski.svg" alt="" id="menu-icons-svg">
+			<img src="svg/ikon-fjellski.svg" alt="" id="menu-icons-svg" id="menu-icons-svg">
 		</div></a>
-		<a href="#"><div class="menu-icons-inner-single">
+		<a href="#"><div class="menu-icons-inner-single" id="menu-single">
 			<h3 id="menu-icons-title">toppturski</h3>
-			<img src="svg/ikon-toppturski.svg" alt="" id="menu-icons-svg">
+			<img src="svg/ikon-toppturski.svg" alt="" id="menu-icons-svg" id="menu-icons-svg">
 		</div></a>
-		<a href="#"><div class="menu-icons-inner-single">
+		<a href="#"><div class="menu-icons-inner-single" id="menu-single">
 			<h3 id="menu-icons-title">turski</h3>
-			<img src="svg/ikon-turski.svg" alt="" id="menu-icons-svg">
+			<img src="svg/ikon-turski.svg" alt="" id="menu-icons-svg" id="menu-icons-svg">
 		</div></a>
-		<a href="#"><div class="menu-icons-inner-single">
+		<a href="#"><div class="menu-icons-inner-single" id="menu-single">
 			<h3 id="menu-icons-title">skistaver</h3>
-			<img src="svg/ikon-skistaver.svg" alt="" id="menu-icons-svg">
+			<img src="svg/ikon-skistaver.svg" alt="" id="menu-icons-svg" id="menu-icons-svg">
 		</div></a>
-		<a href="#"><div class="menu-icons-inner-single">
+		<a href="#"><div class="menu-icons-inner-single" id="menu-single">
 			<h3 id="menu-icons-title">skifeller</h3>
-			<img src="svg/ikon-skifeller.svg" alt="" id="menu-icons-svg">
+			<img src="svg/ikon-skifeller.svg" alt="" id="menu-icons-svg" id="menu-icons-svg">
 		</div></a>
 	</div>
 
@@ -64,8 +64,8 @@
 
 		<div class="news-item-content">
 			<div class="news-item-content-icons">
-				<img src="svg/ikon-nyhet-blå.svg" alt="nyhet">
-				<img src="svg/ikon-uten-stålkant.svg" alt="Uten stålkant">
+				<img src="svg/ikon-nyhet-blå.svg" alt="nyhet" id="news-icon-svg">
+				<img src="svg/ikon-uten-stålkant.svg" alt="Uten stålkant" id="news-icon-svg">
 			</div>
 			<div class="news-item-content-text">
 				<h2 id="news-item-title">Breidablikk jaktski m/fellelås</h2>
@@ -75,11 +75,11 @@
 				<p id="news-item-checklist-item"><img src="https://cdn1.iconfinder.com/data/icons/material-core/20/check-circle-outline-512.png" alt="fellelås">fellelås</p>
 				<p id="news-item-checklist-item"><img src="https://cdn1.iconfinder.com/data/icons/material-core/20/check-circle-outline-512.png" alt="fellelås">smørbar / sintret såle</p>
 			</div>
-			<a href="#" id="button-readmore">LES MER</a>
+			<a href="#" class="button-readmore" id="button-news">LES MER</a>
 		</div>
 
 		<div class="news-image">
-			<img src="bilder/AI_Image6.jpg" alt="Breidablikk Jakt">
+			<img src="bilder/AI_Image6.jpg" alt="Breidablikk Jakt" id="news-image-media">
 		</div>
 	</div>
 
@@ -88,28 +88,42 @@
 <section class="products">
 	<div class="products-inner">
 		<h1 id="products-title">PRODUKTER</h1>
+
+
 		<div class="product-inner-single">
-			<div id="product-imagebox"><img src="http://www.asnes.com/wp-content/uploads/2016/05/540358_BRATT118_Pudderski_02-740x510.jpg" alt="" id="product-inner-image"></div>
-			<div id="product-newsicon"><img src="svg/ikon-nyhet-blå.svg" alt="Nyhet" id="product-icon"></div>
+			<div id="product-newsicon">
+				<img src="svg/ikon-nyhet-blå.svg" alt="Nyhet" id="product-icon">
+			</div>
+			<div id="product-imagebox">
+				<img src="http://www.asnes.com/wp-content/uploads/2016/05/540358_BRATT118_Pudderski_02-740x510.jpg" alt="" id="product-inner-image">
+			</div>
 			<p id="product-inner-title">Sondre AW16</p>
 		</div>
 
+
 		<div class="product-inner-single">
-			<div id="product-imagebox"><img src="http://www.asnes.com/wp-content/uploads/2016/08/540354_TIND_76_01_1306x900-740x510.jpg" alt="" id="product-inner-image"></div>
+			<div id="product-imagebox">
+				<img src="http://www.asnes.com/wp-content/uploads/2016/08/540354_TIND_76_01_1306x900-740x510.jpg" alt="" id="product-inner-image">
+			</div>
 			<p id="product-inner-title">Mountain Race 48</p>
 		</div>
 
+
 		<div class="product-inner-single">
-			<div id="product-newsicon"><img src="svg/ikon-nyhet-blå.svg" alt="Nyhet" id="product-icon"></div>
+			<div id="product-newsicon">
+				<img src="svg/ikon-nyhet-blå.svg" alt="Nyhet" id="product-icon">
+			</div>
 			<div id="product-imagebox"><img src="http://www.asnes.com/wp-content/uploads/2014/03/540286-%C3%85snes-Kongsvold-Jaktski-Hovedbilde-740x510.jpg" alt="" id="product-inner-image"></div>
 			<p id="product-inner-title">Breidablikk 2016</p>
 		</div>
+
 
 		<div class="product-inner-single">
 			<div id="product-imagebox"><img src="http://www.asnes.com/wp-content/uploads/2016/08/540357_EGGI108_02_1306x900-740x510.jpg" alt="" id="product-inner-image"></div>
 			<p id="product-inner-title">Eggi 108</p>
 		</div>
 		
+
 	</div>
 </section>
 <!--- Products End -->
@@ -119,9 +133,9 @@
 			<h3 id="events-subtitle">ULTRA-MARATON PÅ FJELLSKI</h3>
 			<h2 id="events-title">Hardinglaup 2016</h2>
 			<p id="events-context">
-				Er du Robust nok til å takle det høyfjellet på vinterstid? har du erfaring fra lange turer på fjellski? Da er kanskje dette noe for deg.
+				Er du robust nok til å takle det høyfjellet på vinterstid? Har du erfaring fra lange turer på fjellski? Da er kanskje dette noe for deg.
 			</p>
-			<a href="#" id="button-readmore-black">LES MER</a>
+			<a href="#" class="button-readmore-black">LES MER</a>
 		</div>
 	</div>
 
@@ -129,8 +143,9 @@
 <!--- Event End -->
 <footer>
 	<div class="footer-inner">
+		<h1>AMBASSADØRER</h1>
 		<div class="footer-ambassador">
-			<h1>AMBASSADØRER</h1>
+
 			<div id="footer-ambassador-single">
 				<img src="bilder/XuJ4Fx.jpg" alt="Fornavn" id="ambassador-portrait">
 				<p id="ambassador-name">Gladguttene – Zsotlsons</p>
@@ -151,33 +166,33 @@
 		</div>
 		<hr id="footer-divider">
 		<div class="footer-sitemap">
-			<div id="footer-sitemap-single">
-				<ul id="footer-sitemap-ul">
-					<li id="footer-sitemap-li"><a href="#" id="sitemap-link">Forside</a></li>
+			<div class="footer-sitemap-single">
+				<ul class="footer-sitemap-ul">
+					<li class="footer-sitemap-li"><a id="sitemap-text" href="#" class="sitemap-link">Forside</a></li>
 				</ul>
 			</div>
-			<div id="footer-sitemap-single">
-				<ul id="footer-sitemap-ul">
-					<li id="footer-sitemap-li"><a href="#" id="sitemap-link">Ski</a></li>
-					<li id="footer-sitemap-li"><a href="#" id="sitemap-sublink">Fjellski</a></li>
-					<li id="footer-sitemap-li"><a href="#" id="sitemap-sublink">Toppturski</a></li>
-					<li id="footer-sitemap-li"><a href="#" id="sitemap-sublink">Turski</a></li>
-					<li id="footer-sitemap-li"><a href="#" id="sitemap-link">Skistaver</a></li>
-					<li id="footer-sitemap-li"><a href="#" id="sitemap-link">Skifeller</a></li>
+			<div class="footer-sitemap-single">
+				<ul class="footer-sitemap-ul">
+					<li class="footer-sitemap-li"><a id="sitemap-text" href="#" class="sitemap-link">Ski</a></li>
+					<li class="footer-sitemap-li"><a id="sitemap-text" href="#" class="sitemap-sublink">Fjellski</a></li>
+					<li class="footer-sitemap-li"><a id="sitemap-text" href="#" class="sitemap-sublink">Toppturski</a></li>
+					<li class="footer-sitemap-li"><a id="sitemap-text" href="#" class="sitemap-sublink">Turski</a></li>
+					<li class="footer-sitemap-li"><a id="sitemap-text" href="#" class="sitemap-link">Skistaver</a></li>
+					<li class="footer-sitemap-li"><a id="sitemap-text" href="#" class="sitemap-link">Skifeller</a></li>
 				</ul>
 			</div>
-			<div id="footer-sitemap-single">
-				<ul id="footer-sitemap-ul">
-					<li id="footer-sitemap-li"><a href="#" id="sitemap-link">Aktuelt</a></li>
-					<li id="footer-sitemap-li"><a href="#" id="sitemap-link">Ambassadører</a></li>
-					<li id="footer-sitemap-li"><a href="#" id="sitemap-link">Turer</a></li>
-					<li id="footer-sitemap-li"><a href="#" id="sitemap-link">Butikker</a></li>
+			<div class="footer-sitemap-single">
+				<ul class="footer-sitemap-ul">
+					<li class="footer-sitemap-li"><a id="sitemap-text" href="#" class="sitemap-link">Aktuelt</a></li>
+					<li class="footer-sitemap-li"><a id="sitemap-text" href="#" class="sitemap-link">Ambassadører</a></li>
+					<li class="footer-sitemap-li"><a id="sitemap-text" href="#" class="sitemap-link">Turer</a></li>
+					<li class="footer-sitemap-li"><a id="sitemap-text" href="#" class="sitemap-link">Butikker</a></li>
 				</ul>
 			</div>
-			<div id="footer-sitemap-single">
-				<ul id="footer-sitemap-ul">
-					<li id="footer-sitemap-li"><a href="#" id="sitemap-link">Om Åsnes</a></li>
-					<li id="footer-sitemap-li"><a href="#" id="sitemap-link">Årlog (Blogg)</a></li>
+			<div class="footer-sitemap-single">
+				<ul class="footer-sitemap-ul">
+					<li class="footer-sitemap-li"><a id="sitemap-text" href="#" class="sitemap-link">Om Åsnes</a></li>
+					<li class="footer-sitemap-li"><a id="sitemap-text" href="#" class="sitemap-link">Årlog (Blogg)</a></li>
 				</ul>
 			</div>
 		</div>
