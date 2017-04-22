@@ -67,8 +67,8 @@ footer {
 			
 			div {
 				display: inline-block;
-				width: 11vw;
-				margin-right: 11vw;
+				width: 20vw;
+				margin-right: 2vw;
 				vertical-align: top;
 				border: 0px solid #fff;
 			}
@@ -86,6 +86,7 @@ footer {
 			}
 			div:last-child {
 				margin-right: 0px;
+				width: 30vw;
 				
 				a {
 					text-decoration: none;
@@ -157,6 +158,10 @@ footer {
 			}
 			.footer-info {
 				div {
+					margin-right: 0;
+					width: 82vw;
+				}
+				div:last-child {
 					margin-right: 0;
 					width: 82vw;
 				}
