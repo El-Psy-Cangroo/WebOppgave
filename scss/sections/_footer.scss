@@ -147,6 +147,7 @@ footer {
 		> div {
 			.footer-ambassador {
 				text-align: center;
+
 			}
 			.footer-sitemap {
 				div {
@@ -161,8 +162,14 @@ footer {
 				}
 			}
 		}
+		#ambassador-name {
+				font-size: 5vw;
+		}
 
 	}
+	#ambassador-title {
+				font-size: 8vw;
+			}
 
 	div#footer-ambassador-single {
 		width: 80vw;
