@@ -1,74 +1,29 @@
-//Font Imports
-@font-face {
-    font-family: 'Futur';
-    src: url('../font/Futur.woff');
+$font-futur: 'Futur', 'FuturBol', 'FuturBolObl', 'FuturBoo', 'FuturBooBol', 
+'FuturExtBol', 'FuturExtBolObl', 'FuturHea', 'FuturHeaObl', 'FuturLig', 
+'FuturLigObl', 'FuturObl';
+
+@each $font in $font-futur {
+	@font-face {
+		font-family: $font;
+		src: url('../font/#{$font}.woff');
+	}
 }
-@font-face {
-    font-family: 'FuturBol';
-    src: url('../font/FuturBol.woff');
-}
-@font-face {
-    font-family: 'FuturBolObl';
-    src: url('../font/FuturBolObl.woff');
-}
-@font-face {
-    font-family: 'FuturBoo';
-    src: url('../font/FuturBoo.woff');
-}
-@font-face {
-    font-family: 'FuturBooObl';
-    src: url('../font/FuturBooObl.woff');
-}
-@font-face {
-    font-family: 'FuturExtBol';
-    src: url('../font/FuturExtBol.woff');
-}
-@font-face {
-    font-family: 'FuturExtBolObl';
-    src: url('../font/FuturExtBolObl.woff');
-}
-@font-face {
-    font-family: 'FuturHea';
-    src: url('../font/FuturHea.woff');
-}
-@font-face {
-    font-family: 'FuturHeaObl';
-    src: url('../font/FuturHeaObl.woff');
-}
-@font-face {
-    font-family: 'FuturLig';
-    src: url('../font/FuturLig.woff');
-}
-@font-face {
-    font-family: 'FuturLigObl';
-    src: url('../font/FuturLigObl.woff');
-}
-@font-face {
-    font-family: 'FuturObl';
-    src: url('../font/FuturObl.woff');
-}
-// End of Font Imports
 
 
-.button-readmore {
+.button-readmore, .button-readmore-white, .button-readmore-black {
 	font-family: 'FuturBol';
 	text-decoration: none;
-	color: $blue-light;
 	font-size: 14px;
 	letter-spacing: 2px;
-	background: #fff;
 	padding: 11px;
-	//border: 1px solid #024;
+}
+.button-readmore-white {
+	color: $blue-light;
+	background: #fff;
 }
 .button-readmore-black {
-	font-family: 'FuturBol';
-	text-decoration: none;
 	color: #000;
-	font-size: 15px;
-	letter-spacing: 2px;
 	background: #fff;
-	padding: 11px;
-	//border: 1px solid #024;
 }
 
 //banner

@@ -1,34 +1,33 @@
 header {
 	background: #fff;
-	position: relative;
+	//position: relative;
 	height: 130px;
 
 	.header-inner {
 		padding-top: 30px; 
-		//margin-bottom: 30px;
 		margin-left: $layout-margin;
 		margin-right: $layout-margin;
+		//position: relative;
 
-		position: relative;
-		//border: 1px solid #000;
+		.logo {
+			display: inline-block;
 
-		a {
-
-			img {
+			.logo-icon {
 				height: 55px;
 				display: inline-block;
 			}
 		}
-		nav {
+		.navigation {
 			display: inline-block;
 			float: right;
 			position: relative;
 			top: 21px;
-			
-			
-			img {
-				height: 25px;
-				margin-left: 15px;
+
+			.nav-link {
+				.nav-icons {
+					height: 25px;
+					margin-left: 15px;
+				}
 			}
 		}
 	}
@@ -48,16 +47,16 @@ header {
 
 		.header-inner {
 			padding-top: 25px;
-		}
-	}
 
-	#logo-icon {
-		height: 45px;
-	}
-	#nav-icons {
-		height: 25px;
-		position: relative;
-		top: -7px;
+			.logo > .logo-icon {
+				height: 45px;
+			}
+			.navigation > .nav-link > .nav-icons {
+				height: 25px;
+				position: relative;
+				top: -7px;
+			}
+		}
 	}
 }
 
@@ -70,15 +69,15 @@ header {
 
 		.header-inner {
 			padding-top: 15px;
-		}
-	}
 
-	#logo-icon {
-		height: 25px;
-	}
-	#nav-icons {
-		height: 15px;
-		position: relative;
-		top: -13px;
+			.logo > .logo-icon {
+				height: 25px;
+			}
+			.navigation > .nav-link > .nav-icons {
+				height: 15px;
+				position: relative;
+				top: -13px;
+			}
+		}
 	}
 }

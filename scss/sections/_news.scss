@@ -81,6 +81,21 @@
 	}
 }
 
+#news-item-title {
+	font-family: 'FuturBol';
+	color: #fff;
+	font-size: 28px;
+}
+#news-item-subtitle {
+	font-family: 'FuturBol';
+	color: #bce;
+	font-size: 28px;
+}
+#news-item-checklist-item {
+	font-family: 'FuturBol';
+	color: #fff;
+	font-size: 20px;
+}
 
 @media screen and (max-width: 1200px) and (min-width: 769px) {
 	section.news-item {

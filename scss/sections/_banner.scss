@@ -1,15 +1,13 @@
 section.banner {
 	background-image: url('../bilder/AI_Image.jpg');
 	background-size: auto 100%;
-	//background-position: center;
-	//background-attachment: fixed;
-    //background-repeat: no-repeat;
 	height: 700px;
 
 	.banner-inner {
 		margin-left: $layout-margin;
 		margin-right: $layout-margin;
-		position: relative;
+		position: relative; //ment for dots position
+		height: 100%;
 
 		.banner-inner-content {
 			border: 0px solid #000;
@@ -30,9 +28,10 @@ section.banner {
 
 
 		.banner-inner-dots {
-			float: right;
-			position: relative;
-			top: 530px;
+			//float: right;
+			position: absolute;
+			bottom: 5%;
+			right: 0px;
 			
 			.banner-inner-dots-active {
 				display: inline-block;
@@ -59,7 +58,11 @@ section.banner {
 		}
 	}
 }
-
+#banner-title {
+	font-family: 'FuturBol';
+	font-size: 30px;
+	color:#fff;
+}
 
 
 

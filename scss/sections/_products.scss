@@ -1,196 +1,130 @@
 .products {
-	padding-left: $layout-margin;
-	padding-right: $layout-margin;
-	padding-top: $layout-margin;
-	padding-bottom: $layout-margin;
+	padding: $layout-margin;
 
-	div {
+	.products-inner {
 		border: 0px solid #f00;
+		font-size: 0px;
 
-		h1 {
+		.products-title {
 			text-align: left;
 			margin-bottom: 30px;
 		}
 		
-		.product-inner-single:last-child {
-			margin-right: 0px; 
+		.products-inner-single + .products-inner-single {
+			margin-left: 6%; 
 		}
-		.product-inner-single {
-			width: 20vw;
-			height: 20vw;
+		.products-inner-single {
+			width: 20%;
 			display: inline-block;
-			position: relative;
+			position: relative; /*for placing child: products-newsicons*/
 			border: 2px solid #10497D;
-			margin-right: 2%; 
-			margin-bottom: 1%; 
-			overflow: hidden;
 			text-align: center;
 
-			#product-newsicon {
+			.products-newsicon {
 				display: block;
 				position: absolute;
 				top: 0px;
 				text-align: right;
 				width: 100%;
-				border: 0px solid #f00;
-				//height: 70%;
 
-				img {
+				.products-icon {
 					display: inline-block;
-					height: 50px;
+					width: 25%;
 					margin: 10px;
 				}
 			}
 
-			#product-imagebox {
-
-				height: 80%;
+			.products-imagebox {
 				width: 100%;
 				overflow: hidden;
 				display: block;
 				border: 0px solid #0f0;
-				//position: absolute;
 
-				img {
+				.products-inner-image {
 					z-index: -1;
 					width: 30vw;
 					float: right;
-					//position: relative;
-					//top: -80px;
-					//left: -220px;
 					border: 0px solid #f00;
 				}
 			}
 			
-			p {
-				
-				//position: relative;
-				//top: 25px;
+			.products-inner-title {
 				background-color: #10497D;
 				padding: 15px;
-				border: 0px solid #00f;
+				margin: 0px;
 
 			}
 		}
 	}
 }
 
-
+.products-title {
+	font-family: 'FuturBol';
+	letter-spacing: 5px;
+	font-size: 32px;
+	color: $blue-light;
+	line-height: 24px;
+}
+.products-inner-title {
+	font-family: 'FuturBol';
+	font-size: 1vw;
+	color: #fff;
+}
 
 
 
 
 @media screen and (max-width: 1200px) and (min-width: 769px) {
-	section.products {
-
-		.products-inner {
-			
-			.product-inner-single {
-
-				#product-inner-title {
-					font-size: 16px;
-					//top: -30px;
-				}
-			}
-			.product-inner-single:last-child {
-				//margin-bottom: 20px;
-				//margin-right: 0px;
-			}
-		}
+	.products-inner-title {
+		font-size: 1vw;
+		//top: -30px;
 	}
 }
 
 @media screen and (max-width: 1030px) and (min-width: 769px) {
-	.products {
-		div {
-			text-align: center;
+	.products-inner-single {
+		margin-bottom: 20px;
+		//margin-right: 0%;
+		//width: 35%;
+		
+		.products-inner-title {
+			font-size: 1vw;
+			//top: -30px;
+		}
 
-			.product-inner-single {
-				margin-bottom: 20px;
-				margin-right: 0%;
-				width: 35vw;
-				height: 35vw;
-				
-				#product-inner-title {
-					font-size: 28px;
-					//top: -30px;
-				}
+		.products-imagebox {
+			
 
-				#product-imagebox {
-					height: 86%;
-
-					img {
-					width: 52vw;
-					}
-				}
+			.products-inner-image {
+			//width: 52%;
 			}
 		}
 	}
 }
 
+
+
 @media screen and (max-width: 768px) {
-	.products {
-		div {
-			text-align: center;
+	.products-inner {
+		//text-align: center;
 
-			.product-inner-single {
-				margin-bottom: 20px;
-				margin-right: 0%;
-				width: 65vw;
-				height: 65vw;
-				
-				#product-inner-title {
-					font-size: 4vw;
-					//top: -30px;
-				}
-
-				#product-imagebox {
-					height: 86%;
-
-					img {
-					width: 92vw;
-					margin-right: 4vw;
-					}
-				}
-			}
-		}
-	}
-
-
-
-
-
-/*
-
-	section.products {
-		//height: 1200px;
-
-		.products-inner {
-			text-align: center;
+		.products-inner-single {
+			margin-bottom: 20px;
+			margin-right: 0%;
+			width: 65%;
 			
-			.product-inner-single {
-				margin-bottom: 20px;
-				margin-right: 1%;
-				width: 210px;
-				height: 205px;
-
-				#product-inner-title {
-					font-size: 16px;
-					top: -30px;
-				}
-				#product-imagebox {
-					img {
-						width: 300px;
-						top: -10px;
-						left: -100px;
-					}
-				}
+			.products-inner-title {
+				font-size: 4vw;
+				//top: -30px;
 			}
-			.product-inner-single:last-child {
-				margin-bottom: 20px;
-				margin-right: 0px;
+
+			.products-imagebox {
+
+				.products-inner-image {
+				width: 92vw;
+				margin-right: 4%;
+				}
 			}
 		}
 	}
-*/
 }
