@@ -12,28 +12,22 @@ section.banner {
 		.banner-inner-content {
 			border: 0px solid #000;
 			display: block;
-			position: relative;
-			top: 450px;
+			position: absolute;
+			bottom: 150px;
 
-			h2 {
+			.banner-title {
 				margin-bottom: 40px;
 			}
-
-			a {
-				background: #eee;
-				padding: 10px;
-			}
-
 		}
 
 
 		.banner-inner-dots {
-			//float: right;
 			position: absolute;
 			bottom: 5%;
 			right: 0px;
 			
-			.banner-inner-dots-active {
+
+			.banner-inner-dots-active, .banner-inner-dots-passive {
 				display: inline-block;
 				margin-left: 15px;
 				width: $dots-size;
@@ -45,20 +39,12 @@ section.banner {
 			}
 
 			.banner-inner-dots-passive {
-				display: inline-block;
-				margin-left: 15px;
-				width: $dots-size;
-				height: $dots-size;
 				background: #eee;
-				-moz-border-radius: 50px;
-				-webkit-border-radius: 50px;
-				border-radius: 50px;
-				border: $dots-border-size solid #eee;
 			}
 		}
 	}
 }
-#banner-title {
+.banner-title {
 	font-family: 'FuturBol';
 	font-size: 30px;
 	color:#fff;
@@ -76,13 +62,12 @@ section.banner {
 		height: 650px;
 		background-position: center;
 	}
-	#media-banner-content {
+	.media-banner-content {
 		position: relative;
 		top: 430px;
 	}
-	#banner-dots {
-		position: relative;
-		top: 490px;
+	.banner-dots {
+
 
 		div {
 			height: 10px;
@@ -92,7 +77,7 @@ section.banner {
 
 }
 @media screen and (max-width: 768px) {
-	#banner-title {
+	.banner-title {
 		font-size: 20px;
 	}
 
@@ -101,20 +86,19 @@ section.banner {
 		background-position: center;
 	}
 
-	#media-banner-content {
+	.media-banner-content {
 		position: relative;
 		top: 250px;
 	}
-	#banner-dots {
-		position: relative;
-		top: 420px;
+	.banner-dots {
+
 
 		div {
 			height: 5px;
 			width: 5px;
 		}
 	}
-	#button-readmore {
+	.button-readmore {
 		font-size: 10px;
 	}
 

@@ -16,6 +16,7 @@ $font-futur: 'Futur', 'FuturBol', 'FuturBolObl', 'FuturBoo', 'FuturBooBol',
 	font-size: 14px;
 	letter-spacing: 2px;
 	padding: 11px;
+	display: inline-block;
 }
 .button-readmore-white {
 	color: $blue-light;
@@ -26,130 +27,13 @@ $font-futur: 'Futur', 'FuturBol', 'FuturBolObl', 'FuturBoo', 'FuturBooBol',
 	background: #fff;
 }
 
-//banner
-#banner-title {
-	font-family: 'FuturBol';
-	font-size: 30px;
-	color:#fff;
-}
 
 
-//Menu-Icons
-#menu-icons-title {
-	font-family: 'FuturBol';
-	color: #fff;
-	font-size: 24px;
-	margin: 5px;
-}
 
 
-//Nyhet
-#news-item-title {
-	font-family: 'FuturBol';
-	color: #fff;
-	font-size: 28px;
-}
-#news-item-subtitle {
-	font-family: 'FuturBol';
-	color: #bce;
-	font-size: 28px;
-}
-#news-item-checklist-item {
-	font-family: 'FuturBol';
-	color: #fff;
-	font-size: 20px;
-}
-
-//Products
-#products-title {
-	font-family: 'FuturBol';
-	letter-spacing: 5px;
-	font-size: 32px;
-	color: $blue-light;
-	line-height: 24px;
-}
-#product-inner-title {
-	font-family: 'FuturBol';
-	font-size: 20px;
-	color: #fff;
-}
-
-//events
-#events-title {
-	font-family: 'FuturBol';
-	font-size: 33px;
-	color: #fff;
-}
-#events-subtitle {
-	font-family: 'FuturBol';
-	font-size: 20px;
-	color: #fff;
-}
-#events-context {
-	font-family: 'FuturBoo';
-	font-size: 20px;
-	color: #ccc;
-}
 
 
-//footer
-.footer-inner {
-	h1 {
-		font-family: 'FuturBol';
-		font-size: 33px;
-		letter-spacing: 3px;
-		color: #fff;
-	}
-}
-.footer-ambassador {
 
-	h1 {
-		font-family: 'FuturBol';
-		font-size: 33px;
-		letter-spacing: 3px;
-		color: #fff;
-	}
-	p {
-		font-family: 'FuturBol';
-		font-size: 1.4vw;
-		color: #fff;
-	}
-}
-
-.footer-sitemap {
-
-	a.sitemap-link {
-		font-family: 'FuturBol';
-		font-size: 20px;
-		color: #fff;
-	}
-	a.sitemap-sublink {
-		font-family: 'FuturBoo';
-		font-size: 20px;
-		color: #ddd;
-	}
-}
-.footer-info {
-
-	h3 {
-		font-family: 'FuturBol';
-		letter-spacing: 3px;
-		font-size: 20px;
-		color: #fff;
-	}
-	p {
-		font-family: 'FuturBoo';
-		font-size: 14px;
-		letter-spacing: 3px;
-		color: #fff;
-	}
-	a {
-		font-family: 'FuturLig';
-		font-size: 15px;
-		letter-spacing: 3px;
-		color: #fff;
-	}
-}
 
 
 

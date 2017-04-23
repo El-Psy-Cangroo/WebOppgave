@@ -13,6 +13,11 @@
 		.products-inner-single + .products-inner-single {
 			margin-left: 6%; 
 		}
+		@media (max-width: 786px) {
+			.products-inner-single + .products-inner-single {
+				margin-left: 4%;
+			}
+		}
 		.products-inner-single {
 			width: 20%;
 			display: inline-block;
@@ -33,7 +38,6 @@
 					margin: 10px;
 				}
 			}
-
 			.products-imagebox {
 				width: 100%;
 				overflow: hidden;
@@ -42,7 +46,7 @@
 
 				.products-inner-image {
 					z-index: -1;
-					width: 30vw;
+					width: 100%;
 					float: right;
 					border: 0px solid #f00;
 				}
@@ -54,6 +58,17 @@
 				margin: 0px;
 
 			}
+		}
+		@media (max-width: 786px) {
+			.products-inner-single {
+				width: 40%;
+				margin: 4%;
+			}
+		}
+	}
+	@media (max-width: 786px) {
+		.products-inner {
+			text-align: center;
 		}
 	}
 }
@@ -67,63 +82,25 @@
 }
 .products-inner-title {
 	font-family: 'FuturBol';
-	font-size: 1vw;
+	font-size: 1.3vw;
 	color: #fff;
 }
 
 
 
 
-@media screen and (max-width: 1200px) and (min-width: 769px) {
-	.products-inner-title {
-		font-size: 1vw;
-		//top: -30px;
-	}
-}
 
-@media screen and (max-width: 1030px) and (min-width: 769px) {
-	.products-inner-single {
-		margin-bottom: 20px;
-		//margin-right: 0%;
-		//width: 35%;
-		
-		.products-inner-title {
-			font-size: 1vw;
-			//top: -30px;
-		}
-
-		.products-imagebox {
-			
-
-			.products-inner-image {
-			//width: 52%;
-			}
-		}
-	}
-}
-
-
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 786px) {
 	.products-inner {
 		//text-align: center;
 
 		.products-inner-single {
 			margin-bottom: 20px;
-			margin-right: 0%;
-			width: 65%;
+			width: 50%;
 			
 			.products-inner-title {
-				font-size: 4vw;
+				font-size: 2.5vw;
 				//top: -30px;
-			}
-
-			.products-imagebox {
-
-				.products-inner-image {
-				width: 92vw;
-				margin-right: 4%;
-				}
 			}
 		}
 	}
