@@ -127,6 +127,9 @@ footer {
 			.footer-info-title {
 				margin-bottom: 30px;
 			}
+			p, a , h3 {
+				text-transform: uppercase;
+			}
 		}
 	}
 }
@@ -154,9 +157,6 @@ footer {
 }
 
 
-p, a , h3 {
-	text-transform: uppercase;
-}
 .sitemap-link {
 	font-family: 'FuturBol';
 	font-size: 20px;

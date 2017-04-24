@@ -487,6 +487,8 @@ footer {
         vertical-align: middle; }
       footer .footer-inner .footer-info .footer-info-title {
         margin-bottom: 30px; }
+      footer .footer-inner .footer-info p, footer .footer-inner .footer-info a, footer .footer-inner .footer-info h3 {
+        text-transform: uppercase; }
 
 .ambassador-title {
   font-family: 'FuturBol';
@@ -502,9 +504,6 @@ footer {
 @media (max-width: 786px) {
   .ambassador-name {
     font-size: 2.3vw; } }
-p, a, h3 {
-  text-transform: uppercase; }
-
 .sitemap-link {
   font-family: 'FuturBol';
   font-size: 20px;
