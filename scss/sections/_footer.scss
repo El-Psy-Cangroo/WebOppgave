@@ -35,7 +35,7 @@ footer {
 				.ambassador-portrait {
 					width: 100%;
 				}
-				p {
+				.ambassador-name {
 					margin-top: 18px;
 				}
 			}
@@ -113,18 +113,18 @@ footer {
 			}
 			
 
-			a {
+			.footer-info-link {
 				text-decoration: none;
 				display: block;
 				padding-bottom: 15px;
 			}
-			img {
+			.social-img {
 				height: 30px;
 				margin-right: 15px;
 				vertical-align: middle;
 			}
 
-			h3 {
+			.footer-info-title {
 				margin-bottom: 30px;
 			}
 		}
@@ -144,7 +144,7 @@ footer {
 
 .ambassador-name {
 	font-family: 'FuturBol';
-	font-size: 1.3vw;
+	font-size: 1vw;
 	color: #fff;
 }
 @media (max-width: 786px) {
@@ -154,7 +154,9 @@ footer {
 }
 
 
-
+p, a , h3 {
+	text-transform: uppercase;
+}
 .sitemap-link {
 	font-family: 'FuturBol';
 	font-size: 20px;
@@ -171,26 +173,24 @@ footer {
 	}
 }
 
-.footer-info {
 
-	h3 {
-		font-family: 'FuturBol';
-		letter-spacing: 3px;
-		font-size: 20px;
-		color: #fff;
-	}
-	p {
-		font-family: 'FuturBoo';
-		font-size: 14px;
-		letter-spacing: 3px;
-		color: #fff;
-	}
-	a {
-		font-family: 'FuturLig';
-		font-size: 15px;
-		letter-spacing: 3px;
-		color: #fff;
-	}
+.footer-info-title {
+	font-family: 'FuturBol';
+	letter-spacing: 3px;
+	font-size: 20px;
+	color: #fff;
+}
+.footer-info-text {
+	font-family: 'FuturBoo';
+	font-size: 14px;
+	letter-spacing: 3px;
+	color: #fff;
+}
+.footer-info-link {
+	font-family: 'FuturLig';
+	font-size: 15px;
+	letter-spacing: 3px;
+	color: #fff;
 }
 
 

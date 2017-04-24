@@ -85,23 +85,8 @@
 	font-size: 1.3vw;
 	color: #fff;
 }
-
-
-
-
-
-@media screen and (max-width: 786px) {
-	.products-inner {
-		//text-align: center;
-
-		.products-inner-single {
-			margin-bottom: 20px;
-			width: 50%;
-			
-			.products-inner-title {
-				font-size: 2.5vw;
-				//top: -30px;
-			}
-		}
+@media (max-width: 786px) {
+	.products-inner-title {
+		font-size: 2.5vw;
 	}
 }

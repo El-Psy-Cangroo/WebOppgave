@@ -15,53 +15,23 @@
 			width: 18%;
 			border: 0px solid #f00;
 			text-decoration: none;
+			transition: transform, .1s ease;
 			
 
 			.menu-icons-svg {
 				width: 50%;
 			}
 		}
+		.menu-link:hover {
+			transform: scale(1.1);
+		}
 	}
 }
 .menu-icons-title {
 	font-family: 'FuturBol';
 	color: #fff;
-	font-size: 24px;
+	font-size: 2vw;
 	margin: 5px;
 
 }
 
-
-
-
-
-/* --------- Media Queries ------------ */
-
-@media screen and (max-width: 1200px) and (min-width: 769px) {
-	section.menu-icons {
-		.menu-icons-title {
-			font-size: 18px;
-			padding-bottom: 10px;
-		}
-		.menu-icons-inner-single {
-			width: 120px;
-		}
-
-	}
-}
-
-@media screen and (max-width: 768px) and (min-width: 471px) {
-	.menu-icons-title {
-		font-size: 14px;
-
-	}
-}
-@media screen and (max-width: 470px) {
-	.menu-icons {
-		padding-top: 5px;
-	}
-	.menu-icons-title {
-		font-size: 10px;
-	}
-	
-}

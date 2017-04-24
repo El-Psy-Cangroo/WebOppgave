@@ -17,16 +17,28 @@ $font-futur: 'Futur', 'FuturBol', 'FuturBolObl', 'FuturBoo', 'FuturBooBol',
 	letter-spacing: 2px;
 	padding: 11px;
 	display: inline-block;
+	text-transform: uppercase;
 }
 .button-readmore-white {
 	color: $blue-light;
 	background: #fff;
 }
+.button-readmore-white:hover {
+	color: #fff;
+	background: $blue-dark;
+	transition: color .2s ease;
+	transition: background .2s ease;
+}
 .button-readmore-black {
 	color: #000;
 	background: #fff;
 }
-
+.button-readmore-black:hover {
+	color: #fff;
+	background: $blue-dark;
+	transition: color .2s ease;
+	transition: background .2s ease;
+}
 
 
 

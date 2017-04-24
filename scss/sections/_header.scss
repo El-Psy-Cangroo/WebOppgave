@@ -16,6 +16,11 @@ header {
 				height: 55px;
 				display: inline-block;
 			}
+			@media (max-width: 786px) {
+				.logo-icon {
+					height: 25px;
+				}
+			}
 		}
 		.navigation {
 			display: inline-block;
@@ -28,56 +33,25 @@ header {
 					height: 25px;
 					margin-left: 15px;
 				}
+				@media (max-width: 786px) {
+					.nav-icons {
+						height: 15px;
+						position: relative;
+						top: -13px;
+					}
+				}
 			}
 		}
 	}
-}
-
-
-
-
-
-
-
-
-/* -------- Medie Queries -------- */
-@media screen and (max-width: 1200px) and (min-width: 769px) {
-	header {
-		height: 105px;
-
+	@media (max-width: 786px) {
 		.header-inner {
-			padding-top: 25px;
-
-			.logo > .logo-icon {
-				height: 45px;
-			}
-			.navigation > .nav-link > .nav-icons {
-				height: 25px;
-				position: relative;
-				top: -7px;
-			}
+			padding-top: 15px;
 		}
 	}
 }
-
-
-
 
 @media screen and (max-width: 768px) {
 	header {
 		height: 60px;
-
-		.header-inner {
-			padding-top: 15px;
-
-			.logo > .logo-icon {
-				height: 25px;
-			}
-			.navigation > .nav-link > .nav-icons {
-				height: 15px;
-				position: relative;
-				top: -13px;
-			}
-		}
 	}
 }

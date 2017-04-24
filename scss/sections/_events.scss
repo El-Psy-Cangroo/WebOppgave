@@ -1,57 +1,46 @@
 .events {
 	height: 530px;
-	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../bilder/9vwFt1.jpg');
-	background-size: 150%;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/9vwFt1.jpg');
+	background-size: cover;
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-	//background-position: -300px -400px;
-	
 
-	> div {
+	.events-inner {
 		padding: $layout-margin;
 
-		h3 {
+		.events-subtitle {
 			margin-bottom: 0px;
 		}
-		h2 {
+		.events-title {
 			margin-bottom: 30px;
 		}
-		p {
+		.events-context {
 			width: 500px;
 			margin-bottom: 50px;
+		}
+		@media (max-width: 786px) {
+			.events-context {
+			width: 280px;
+			}
 		}
 	}
 
 }
 
-
-#events-title {
+.events-title {
 	font-family: 'FuturBol';
 	font-size: 33px;
 	color: #fff;
 }
-#events-subtitle {
+.events-subtitle {
 	font-family: 'FuturBol';
 	font-size: 20px;
 	color: #fff;
 }
-#events-context {
+.events-context {
 	font-family: 'FuturBoo';
 	font-size: 20px;
 	color: #ccc;
 }
 
- @media screen and (max-width: 768px) {
-	section.events {
-		background-position: center;
-	    background-repeat: no-repeat;
-	    background-size: auto 100%;
-
-	    div {
-			p {
-				width: 280px;
-			}
-    	}
-	}
-}
